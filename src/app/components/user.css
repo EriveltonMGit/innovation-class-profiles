@@ -1,0 +1,151 @@
+.container_user {
+  z-index: 3000;
+  margin-top: 243px;
+  height: 257px;
+  width: 804px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--text-color-btn);
+  img {
+    width: 220px;
+    height: 220px;
+    border: 2px solid var(--text-color-btn);
+    border-radius: 50%;
+  }
+  div {
+    width: 448px;
+    height: 123px;
+  }
+  h2 {
+    font-family: var(--font-nunito-sans), sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--bg-button);
+  }
+  p {
+    font-family: var(--font-nunito-sans), sans-serif;
+    color: var(--color-form);
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+  }
+}
+
+/* msg_error */
+.msg_error {
+  z-index: 3000;
+  margin-top: 243px;
+  height: 88px;
+  width: 710px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--text-color-btn);
+
+  p {
+    color: var(--color-text-red);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 479px;
+    height: 54px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .container_user {
+    z-index: 3000;
+    margin-top: 243px;
+    height: 257px;
+    width: 804px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--text-color-btn);
+    img {
+      width: 220px;
+      height: 220px;
+      border: 2px solid var(--text-color-btn);
+      border-radius: 50%;
+    }
+    div {
+      width: 448px;
+      height: 123px;
+    }
+    h2 {
+      font-family: var(--font-nunito-sans), sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      color: var(--bg-button);
+    }
+    p {
+      font-family: var(--font-nunito-sans), sans-serif;
+      color: var(--color-form);
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 100%;
+      letter-spacing: 0%;
+    }
+  }
+  
+  /* msg_error */
+  .msg_error {
+    z-index: 3000;
+    margin-top: 243px;
+    height: 88px;
+    width: 710px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--text-color-btn);
+  
+    p {
+      color: var(--color-text-red);
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      text-align: center;
+      width: 479px;
+      height: 54px;
+    }
+  }
+}
+/* 🖥️ Telas grandes (HD ou superiores) */
+@media screen and (min-width: 1366px) and (max-width: 1919px) {
+ 
+}
+
+/* 💻 Laptops e desktops menores (modo paisagem) */
+@media screen and (min-width: 1024px) and (max-width: 1365px) and (orientation: landscape) {
+ 
+}
+
+/* 📱📲 Celulares grandes e tablets pequenos (modo retrato) */
+@media screen and (min-width: 769px) and (max-width: 1023px) and (orientation: portrait) {
+  /* Ex: tablets em pé, celulares grandes como iPhone Pro Max */
+}
+@media screen and (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
+  /* Ex: iPhone 12, Galaxy S21, dispositivos intermediários */
+}
+/* @media (max-width: 480px) */
+@media (max-width: 480px) {
+}
+
+@media (max-width: 390px) {
+}
+
+@media (max-width: 320px) {
+}

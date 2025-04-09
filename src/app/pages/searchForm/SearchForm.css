@@ -1,0 +1,381 @@
+/* container_form */
+.container_form {
+  width: 100%;
+  height: 537px;
+  top: 137px;
+  left: 142px;
+  background-color: var(--color-form);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  z-index: 800;
+  position: absolute;
+
+  /* area_title */
+  .area_title {
+    width: 384px;
+    height: 82px;
+    margin-top: 39px;
+    left: 528px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    gap: 11px;
+    img {
+      width: 58px;
+      height: 58px;
+    }
+  }
+  h1 {
+    background-color: var(--color-form);
+    width: 384px;
+    height: 82px;
+    font-weight: 600;
+    font-size: 50px;
+    white-space: normal;
+    word-break: break-word;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--color-text-white);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+form {
+  width: 503px;
+  height: 62px;
+  top: 285px;
+  left: 469px;
+  margin-top: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 300;
+
+  input {
+    width: 503px;
+    color: var(--color-form);
+    width: 503px;
+    height: 62px;
+    border: none;
+    background-color: var(--bg-color-white);
+  }
+  button {
+    width: 62px;
+    height: 62px;
+    border-radius: 10px;
+    background-color: var(--bg-button);
+    color: var(--text-color-btn);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .input-button-wrapper {
+    position: relative;
+    width: 503px;
+    height: 62px;
+    outline: none;
+  }
+
+  .input-button-wrapper input {
+    width: 503px;
+    height: 62px;
+    padding-right: 70px; /* espaço pro botão dentro */
+    padding-left: 20px;
+    border: none;
+    background-color: var(--bg-color-white);
+    color: var(--color-form);
+    font-size: 16px;
+    border-radius: 10px;
+
+  }
+
+  .input-button-wrapper button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 62px;
+    height: 62px;
+    border-radius: 10px;
+    background-color: var(--bg-button);
+    color: var(--text-color-btn);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+
+  .input-button-wrapper button:hover {
+    background-color: var(--bg-button-hover, #0056b3);
+  }
+}
+
+/* ================MEDIA SCREN ==================== */
+@media screen and (min-width: 1920px) {
+  /* container_form */
+.container_form {
+  width: 1156px;
+  height: 537px;
+  top: 137px;
+  left: 142px;
+  background-color: var(--color-form);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  z-index: 800;
+  position: absolute;
+
+  /* area_title */
+  .area_title {
+    width: 384px;
+    height: 82px;
+    margin-top: 39px;
+    left: 528px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    gap: 11px;
+    img {
+      width: 58px;
+      height: 58px;
+    }
+  }
+  h1 {
+    background-color: var(--color-form);
+    width: 384px;
+    height: 82px;
+    font-weight: 600;
+    font-size: 50px;
+    white-space: normal;
+    word-break: break-word;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--color-text-white);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+form {
+  width: 503px;
+  height: 62px;
+  top: 285px;
+  left: 469px;
+  margin-top: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 300;
+
+  input {
+    width: 503px;
+    color: var(--color-form);
+    width: 503px;
+    height: 62px;
+    border: none;
+    background-color: var(--bg-color-white);
+  }
+  button {
+    width: 62px;
+    height: 62px;
+    border-radius: 10px;
+    background-color: var(--bg-button);
+    color: var(--text-color-btn);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .input-button-wrapper {
+    position: relative;
+    width: 503px;
+    height: 62px;
+    outline: none;
+  }
+
+  .input-button-wrapper input {
+    width: 503px;
+    height: 62px;
+    padding-right: 70px; /* espaço pro botão dentro */
+    padding-left: 20px;
+    border: none;
+    background-color: var(--bg-color-white);
+    color: var(--color-form);
+    font-size: 16px;
+    border-radius: 10px;
+
+  }
+
+  .input-button-wrapper button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 62px;
+    height: 62px;
+    border-radius: 10px;
+    background-color: var(--bg-button);
+    color: var(--text-color-btn);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+
+  .input-button-wrapper button:hover {
+    background-color: var(--bg-button-hover, #0056b3);
+  }
+}
+}
+/* 🖥️ Telas grandes (HD ou superiores) */
+@media screen and (min-width: 1366px) and (max-width: 1919px) {
+ 
+}
+
+/* 💻 Laptops e desktops menores (modo paisagem) */
+@media screen and (min-width: 1024px) and (max-width: 1365px) and (orientation: landscape) {
+ 
+}
+
+/* 📱📲 Celulares grandes e tablets pequenos (modo retrato) */
+@media screen and (min-width: 769px) and (max-width: 1023px) and (orientation: portrait) {
+  /* Ex: tablets em pé, celulares grandes como iPhone Pro Max */
+}
+@media screen and (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
+  /* Ex: iPhone 12, Galaxy S21, dispositivos intermediários */
+}
+/* @media (max-width: 480px) */
+@media (max-width: 480px) {
+}
+
+@media (max-width: 390px) {
+  /* container_form */
+.container_form {
+  width: 390px;
+  height: 537px;
+  top: 137px;
+  left: 142px;
+  background-color: var(--color-form);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  z-index: 800;
+  position: absolute;
+
+  /* area_title */
+  .area_title {
+    width: 384px;
+    height: 82px;
+    margin-top: 39px;
+    left: 528px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    gap: 11px;
+    img {
+      width: 58px;
+      height: 58px;
+    }
+  }
+  h1 {
+    background-color: var(--color-form);
+    width: 384px;
+    height: 82px;
+    font-weight: 600;
+    font-size: 50px;
+    white-space: normal;
+    word-break: break-word;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--color-text-white);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+form {
+  width: 503px;
+  height: 62px;
+  top: 285px;
+  left: 469px;
+  margin-top: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 300;
+
+  input {
+    width: 503px;
+    color: var(--color-form);
+    width: 503px;
+    height: 62px;
+    border: none;
+    background-color: var(--bg-color-white);
+  }
+  button {
+    width: 62px;
+    height: 62px;
+    border-radius: 10px;
+    background-color: var(--bg-button);
+    color: var(--text-color-btn);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .input-button-wrapper {
+    position: relative;
+    width: 503px;
+    height: 62px;
+    outline: none;
+  }
+
+  .input-button-wrapper input {
+    width: 503px;
+    height: 62px;
+    padding-right: 70px; /* espaço pro botão dentro */
+    padding-left: 20px;
+    border: none;
+    background-color: var(--bg-color-white);
+    color: var(--color-form);
+    font-size: 16px;
+    border-radius: 10px;
+
+  }
+
+  .input-button-wrapper button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 62px;
+    height: 62px;
+    border-radius: 10px;
+    background-color: var(--bg-button);
+    color: var(--text-color-btn);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+
+  .input-button-wrapper button:hover {
+    background-color: var(--bg-button-hover, #0056b3);
+  }
+}
+}
+
+@media (max-width: 320px) {
+}
