@@ -29,8 +29,6 @@
 | Next.js           | 15.2.5    | Framework React SSR       |
 | React             | 19.0.0    | Biblioteca UI             |
 | React Icons       | 5.5.0     | Ícones personalizáveis    |
-| React Toastify    | 11.0.5    | Feedback de notificações  |
-| TailwindCSS       | 4         | Estilização utilitária    |
 | TypeScript        | 5         | Tipagem estática          |
 
 ---
