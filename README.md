@@ -1,57 +1,88 @@
-# 🚀 GitHub Profile Search
+# 🚀 Projeto GitHub Profile Search - Innovation Class
 
-Aplicação desenvolvida com **Next.js** que consome a API pública do GitHub para buscar e exibir informações de um usuário, como:
+---
 
-- Foto de perfil
-- Nome
-- Bio
+## 🔍 Visão Geral
 
-## 🔗 Link do projeto online
+**GitHub Profile Search** é uma aplicação web que consome a API pública do GitHub para exibir o status de um usuário com base no nome digitado. A aplicação mostra:
 
-Acesse aqui: [Innovation Class Perfil](https://innovation-class-perfil.netlify.app/)
+- 📷 Imagem do perfil  
+- 👤 Nome do usuário  
+- 📝 Bio  
 
-## 🧪 Tecnologias utilizadas
+---
 
-- [Next.js](https://nextjs.org/)
-- [React](https://react.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [React Toastify](https://fkhadra.github.io/react-toastify/introduction)
-- [React Icons](https://react-icons.github.io/react-icons/)
+## 🔗 Links Úteis
 
-## 💡 Funcionalidade
+- 🌐 **Aplicação Live**: [https://innovation-class-perfil.netlify.app/](https://innovation-class-perfil.netlify.app/)
+- ⚙️ **API Utilizada**: [GitHub REST API](https://api.github.com)
+- 💻 **Repositório GitHub**: [GitHub Profile Search](https://github.com/EriveltonMGit/github-profile-search)
 
-O usuário insere um nome de perfil do GitHub e, ao buscar, são exibidos:
+---
 
-✅ Foto do perfil  
-✅ Nome público  
-✅ Bio do usuário  
-✅ Mensagem de feedback com `react-toastify`
+## 🛠 Stack Tecnológica
 
-## 📦 Como rodar localmente
+### Frontend (Netlify)
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/EriveltonMGit/innovation-class-profiles.git
-   cd github-profile-search
-Instale as dependências:
+| Tecnologia        | Versão    | Finalidade                |
+|-------------------|-----------|----------------------------|
+| Next.js           | 15.2.5    | Framework React SSR       |
+| React             | 19.0.0    | Biblioteca UI             |
+| React Icons       | 5.5.0     | Ícones personalizáveis    |
+| React Toastify    | 11.0.5    | Feedback de notificações  |
+| TailwindCSS       | 4         | Estilização utilitária    |
+| TypeScript        | 5         | Tipagem estática          |
 
+---
+
+## 📸 Screenshots
+
+<div align="center">
+  <img src="https://drive.google.com/uc?export=view&id=12ELX-3Hcd7lwK_SXG36JxN48__kjJ5Zb" alt="tela1" width="250" />
+  <img src="https://drive.google.com/uc?export=view&id=1q8XgleotxcvlHLStdcLMRXs3E0ocXJwG" alt="tela2" width="250" />
+  <img src="https://drive.google.com/uc?export=view&id=1k84PY79OAeMQiFXUdUxJRaFAdPS2kFGU" alt="tela3" width="250" />
+</div>
+
+---
+
+## 🏁 Começando
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/EriveltonMGit/github-profile-search.git
+cd github-profile-search
+2. Instale as dependências
 bash
 Copiar
 Editar
 npm install
-Inicie o servidor de desenvolvimento:
-
+3. Inicie o servidor de desenvolvimento
 bash
 Copiar
 Editar
 npm run dev
-Acesse em http://localhost:3000 no seu navegador.
+Acesse: http://localhost:3000
 
-📂 Scripts disponíveis
-npm run dev: roda o projeto em ambiente de desenvolvimento
+✨ Funcionalidades
+✅ Busca de perfil via API pública do GitHub
+✅ Feedback visual com Toast
+✅ Interface 100% responsiva
+✅ Animações sutis com Tailwind
+✅ Deploy contínuo via Netlify
 
-npm run build: compila o projeto para produção
+☁️ Hospedagem
+Frontend (Netlify)
+✅ Hospedagem estática
 
-npm start: executa a versão de produção
+✅ Build automático
 
-npm run lint: analisa o código com o ESLint
+✅ Deploy contínuo com cada push
+
+📩 Contato
+Erivelton Magalhães dos Santos
+✉️ erivelton.m.santos@aluno.senai.br
+
+yaml
+Copiar
+Editar
