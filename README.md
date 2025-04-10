@@ -52,14 +52,8 @@
 git clone https://github.com/EriveltonMGit/github-profile-search.git
 cd github-profile-search
 2. Instale as dependências
-bash
-Copiar
-Editar
 npm install
 3. Inicie o servidor de desenvolvimento
-bash
-Copiar
-Editar
 npm run dev
 Acesse: http://localhost:3000
 
@@ -82,6 +76,3 @@ Frontend (Netlify)
 Erivelton Magalhães dos Santos
 ✉️ erivelton.m.santos@aluno.senai.br
 
-yaml
-Copiar
-Editar
