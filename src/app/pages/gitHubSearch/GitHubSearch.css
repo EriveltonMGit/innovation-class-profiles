@@ -69,7 +69,7 @@
   border-top: 5px solid #2ecc71;
   border-radius: 50%;
   animation: spin 1s linear infinite;
-  margin-bottom: 15px;
+  margin-bottom: 16px;
 }
 
 @keyframes spin {
