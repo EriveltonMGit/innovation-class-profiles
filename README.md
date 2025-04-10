@@ -16,7 +16,7 @@
 
 - 🌐 **Aplicação Live**: [https://innovation-class-perfil.netlify.app/](https://innovation-class-perfil.netlify.app/)
 - ⚙️ **API Utilizada**: [GitHub REST API](https://api.github.com)
-- 💻 **Repositório GitHub**: [GitHub Profile Search](https://github.com/EriveltonMGit/github-profile-search)
+- 💻 **Repositório GitHub**: [GitHub Profile Search](https://github.com/EriveltonMGit/innovation-class-profiles.git)
 
 ---
 
@@ -38,9 +38,10 @@
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="https://drive.google.com/uc?export=view&id=12ELX-3Hcd7lwK_SXG36JxN48__kjJ5Zb" alt="tela1" width="250" />
-  <img src="https://drive.google.com/uc?export=view&id=1q8XgleotxcvlHLStdcLMRXs3E0ocXJwG" alt="tela2" width="250" />
-  <img src="https://drive.google.com/uc?export=view&id=1k84PY79OAeMQiFXUdUxJRaFAdPS2kFGU" alt="tela3" width="250" />
+ 
+  <img src="https://drive.google.com/uc?export=view&id=1q8XgleotxcvlHLStdcLMRXs3E0ocXJwG" alt="tela2" width="350" />
+  <img src="https://drive.google.com/uc?export=view&id=1k84PY79OAeMQiFXUdUxJRaFAdPS2kFGU" alt="tela3" width="350" />
+   <img src="https://drive.google.com/uc?export=view&id=12ELX-3Hcd7lwK_SXG36JxN48__kjJ5Zb" alt="tela1" width="120" />
 </div>
 
 ---
