@@ -24,7 +24,7 @@ export default function GitHubSearch() {
       const data: GitHubUser = await res.json()
       setUserData(data)
     } catch {
-      setError('Nenhum perfil foi encontrado com ese nome de usuário. Tente novamente 😢')
+      setError('Nenhum perfil foi encontrado com esse nome de usuário. Tente novamente 😢')
     } finally {
       setLoading(false)
     }

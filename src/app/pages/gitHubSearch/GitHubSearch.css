@@ -5,14 +5,14 @@
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  height: 810px;
+  height: 100svh;
   overflow: hidden;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: var(--color-bg-black);
- 
+  
 }
 /* camada_1 */
 .camada_1 {
@@ -23,6 +23,7 @@
   margin-top: 28px;
   width: 239px;
   height: 225px;
+  
 }
 /* camada_2 */
 .camada_2 {
@@ -44,6 +45,39 @@
   margin-top: -268px;
   margin-left: 806px;
 }
+
+
+/* Adicione ao seu GitHubSearch.css */
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #2ecc71;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 15px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
 @media screen and (min-width: 1920px) {
   /*  className="container_git" */
 .container_git {
